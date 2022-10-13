@@ -49,9 +49,23 @@ For further reference, please consider the following sections:
 
 [Proyecto en HEROKU](https://dashboard.heroku.com/apps/demojavamaven/deploy/github)
 
-
+[Accessing Data with JPA](https://spring.io/guides/gs/accessing-data-jpa/)
 
 ## Entregables
+
 [Proyecto en GITHUB](https://github.com/ramosrichard/demo_java_maven/)
 
 [Backend y API en la nube](https://demojavamaven.herokuapp.com/employees/)
+
+Archivo Postman - en el repositorio
+*   DemoJavaMaven.postman_collection.json  
+
+Se implementa el patron de diseño Spring MVC
+
+Se implementa base de datos H2 - pero solo en memoria -
+
+Se cargan registros de prueba al iniciar
+
+Se implementa JPA (Java Persistence API) para el manejo de entidades
+
+Se implementa Spring HATEOAS para el correcto manejo de hyperlinks de forma dinamica
